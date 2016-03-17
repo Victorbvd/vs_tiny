@@ -1,0 +1,2 @@
+    其实问题是你执行时按的是F5，而正确的应该是Ctrl+F5，这样窗口就会显示 Press any key to continue...这句话了。也可以看到程序运行的结果了。
+   因为，F5是Debugging模式，在这个模式下，当程序运行结束后，窗口不会继续保持打开状态。而Ctrl+F5是 Start Without Debugging模式，在这个模式下，就可以看到运行结果了。

@@ -1,0 +1,52 @@
+﻿生成启动时间为 2016/1/4 21:21:45。
+     1>项目“F:\SCUT\上学\作业区\大三\编译原理\实验\实验报告\TINY\tiny\tiny\tiny.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\Program Files\Visual Studio\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:prompt ..\..\ANALYZE.C ..\..\CGEN.C ..\..\CODE.C ..\..\MAIN.C ..\..\PARSE.C ..\..\SCAN.C ..\..\SYMTAB.C ..\..\UTIL.C
+         UTIL.C
+     1>f:\scut\上学\作业区\大三\编译原理\实验\实验报告\tiny\util.c(150): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\string.h(119): note: 参见“strcpy”的声明
+         SYMTAB.C
+         SCAN.C
+         PARSE.C
+     1>f:\scut\上学\作业区\大三\编译原理\实验\实验报告\tiny\parse.c(109): warning C4087: “varlist”: 用“void”参数列表声明
+     1>f:\scut\上学\作业区\大三\编译原理\实验\实验报告\tiny\parse.c(119): warning C4013: “newDefineNode”未定义；假设外部返回 int
+     1>f:\scut\上学\作业区\大三\编译原理\实验\实验报告\tiny\parse.c(119): warning C4047: “=”:“TreeNode *”与“int”的间接级别不同
+     1>f:\scut\上学\作业区\大三\编译原理\实验\实验报告\tiny\parse.c(131): warning C4047: “=”:“TreeNode *”与“int”的间接级别不同
+     1>f:\scut\上学\作业区\大三\编译原理\实验\实验报告\tiny\parse.c(143): warning C4047: “=”:“TreeNode *”与“int”的间接级别不同
+     1>f:\scut\上学\作业区\大三\编译原理\实验\实验报告\tiny\parse.c(167): warning C4027: 未用形参表声明的函数
+         MAIN.C
+     1>f:\scut\上学\作业区\大三\编译原理\实验\实验报告\tiny\main.c(61): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\string.h(119): note: 参见“strcpy”的声明
+     1>f:\scut\上学\作业区\大三\编译原理\实验\实验报告\tiny\main.c(63): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\string.h(90): note: 参见“strcat”的声明
+     1>f:\scut\上学\作业区\大三\编译原理\实验\实验报告\tiny\main.c(67): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\stdio.h(205): note: 参见“fopen”的声明
+     1>f:\scut\上学\作业区\大三\编译原理\实验\实验报告\tiny\main.c(105): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\string.h(346): note: 参见“strncpy”的声明
+     1>f:\scut\上学\作业区\大三\编译原理\实验\实验报告\tiny\main.c(106): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\string.h(90): note: 参见“strcat”的声明
+     1>f:\scut\上学\作业区\大三\编译原理\实验\实验报告\tiny\main.c(107): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\stdio.h(205): note: 参见“fopen”的声明
+         CODE.C
+         CGEN.C
+     1>f:\scut\上学\作业区\大三\编译原理\实验\实验报告\tiny\cgen.c(296): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\string.h(119): note: 参见“strcpy”的声明
+     1>f:\scut\上学\作业区\大三\编译原理\实验\实验报告\tiny\cgen.c(297): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\string.h(90): note: 参见“strcat”的声明
+         ANALYZE.C
+         正在生成代码...
+       Link:
+         D:\Program Files\Visual Studio\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\SCUT\上学\作业区\大三\编译原理\实验\实验报告\TINY\tiny\Debug\tiny.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"F:\SCUT\上学\作业区\大三\编译原理\实验\实验报告\TINY\tiny\Debug\tiny.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\SCUT\上学\作业区\大三\编译原理\实验\实验报告\TINY\tiny\Debug\tiny.lib" /MACHINE:X86 Debug\ANALYZE.obj
+         Debug\CGEN.obj
+         Debug\CODE.obj
+         Debug\MAIN.obj
+         Debug\PARSE.obj
+         Debug\SCAN.obj
+         Debug\SYMTAB.obj
+         Debug\UTIL.obj
+         tiny.vcxproj -> F:\SCUT\上学\作业区\大三\编译原理\实验\实验报告\TINY\tiny\Debug\tiny.exe
+     1>已完成生成项目“F:\SCUT\上学\作业区\大三\编译原理\实验\实验报告\TINY\tiny\tiny\tiny.vcxproj”(Build 个目标)的操作。
+
+已成功生成。
+
+已用时间 00:00:00.84
